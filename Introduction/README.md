@@ -1,11 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to NumPy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
+        body {
+            background-color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+        }
         .beautiful-heading {
             font-size: 2.5rem;
             font-weight: 700;
             background: linear-gradient(45deg, #3b82f6, #a855f7);
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
             position: relative;
             text-align: center;
             text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -26,10 +43,10 @@
         }
     </style>
 </head>
-<body class="bg-gray-900 min-h-screen flex items-center justify-center">
-    <h1 class="beautiful-heading">Introduction to NumPy</h1>
+<body>
+    <h1 class="beautiful-heading">Machine Learning Notes</h1>
 </body>
-
+</html>
 
 The array object is called ndarray.
 NumPy arrays are created using the array() function.
