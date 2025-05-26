@@ -1,4 +1,36 @@
-# Introduction to NumPY
+
+<head>
+    <style>
+        .beautiful-heading {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(45deg, #3b82f6, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            position: relative;
+            text-align: center;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .beautiful-heading::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 3px;
+            background: linear-gradient(45deg, #3b82f6, #a855f7);
+            transition: width 0.3s ease;
+        }
+        .beautiful-heading:hover::after {
+            width: 50%;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 min-h-screen flex items-center justify-center">
+    <h1 class="beautiful-heading">Introduction to NumPy</h1>
+</body>
+
 
 The array object is called ndarray.
 NumPy arrays are created using the array() function.
