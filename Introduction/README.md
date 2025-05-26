@@ -1,5 +1,4 @@
-
-
+<head>
     <style>
         .beautiful-heading {
             font-size: 2.5rem;
@@ -26,6 +25,7 @@
             width: 50%;
         }
     </style>
+</head>
 <body class="bg-gray-900 min-h-screen flex items-center justify-center">
     <h1 class="beautiful-heading">Introduction to NumPy</h1>
 </body>
